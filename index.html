@@ -1,45 +1,25 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZHARFPOLYAN Logo</title>
+    <title>Display Logo</title>
     <style>
         body {
-            margin: 0;
-            padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
-            background-color: white;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
         }
-        
-        .logo-container {
-            text-align: center;
-            padding: 20px;
-        }
-        
-        .logo {
-            width: 400px;
+        img {
+            max-width: 100%;
             height: auto;
-            transition: transform 0.3s ease;
-        }
-        
-        .logo:hover {
-            transform: scale(1.05);
-        }
-
-        @media (max-width: 768px) {
-            .logo {
-                width: 300px;
-            }
         }
     </style>
 </head>
 <body>
-    <div class="logo-container">
-        <img src="logo.png" alt="ZHARFPOLYAN Logo" class="logo">
-    </div>
+    <img src="logo.png" alt="Logo">
 </body>
 </html>
