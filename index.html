@@ -1,25 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Display Logo</title>
+    <title>ZHARFPOLYAN Logo</title>
     <style>
         body {
+            margin: 0;
+            padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f4f4f4;
+            min-height: 100vh;
+            background-color: white;
         }
-        img {
-            max-width: 100%;
+        
+        .logo-container {
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            max-width: 600px;
+        }
+        
+        .logo {
+            width: 100%;
             height: auto;
+            max-width: 400px;
+            transition: transform 0.3s ease;
+            display: inline-block;
+        }
+        
+        .logo:hover {
+            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
-    <img src="logo.png" alt="Logo">
+    <div class="logo-container">
+        <!-- راه‌های مختلف برای مسیردهی - یکی را امتحان کنید -->
+        <img src="images/logo.png" alt="ZHARFPOLYAN Logo" class="logo">
+        <!-- یا -->
+        <!-- <img src="/images/logo.png" alt="ZHARFPOLYAN Logo" class="logo"> -->
+        <!-- یا -->
+        <!-- <img src="./images/logo.png" alt="ZHARFPOLYAN Logo" class="logo"> -->
+    </div>
 </body>
 </html>
