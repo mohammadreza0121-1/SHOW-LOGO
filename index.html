@@ -15,8 +15,13 @@
             background-color: white;
         }
         
+        .logo-container {
+            text-align: center;
+            padding: 20px;
+        }
+        
         .logo {
-            width: 300px;
+            width: 400px;
             height: auto;
             transition: transform 0.3s ease;
         }
@@ -24,9 +29,17 @@
         .logo:hover {
             transform: scale(1.1);
         }
+
+        @media (max-width: 768px) {
+            .logo {
+                width: 300px;
+            }
+        }
     </style>
 </head>
 <body>
-    <img src="public/images/logo.png" alt="ZHARFPOLYAN Logo" class="logo">
+    <div class="logo-container">
+        <img src="./public/images/logo.png" alt="ZHARFPOLYAN Logo" class="logo">
+    </div>
 </body>
 </html>
