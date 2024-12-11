@@ -18,31 +18,27 @@
         .logo-container {
             text-align: center;
             padding: 20px;
-            width: 100%;
-            max-width: 600px;
         }
         
         .logo {
+            max-width: 400px;
             width: 100%;
             height: auto;
-            max-width: 400px;
-            transition: transform 0.3s ease;
-            display: inline-block;
-        }
-        
-        .logo:hover {
-            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
     <div class="logo-container">
-        <!-- راه‌های مختلف برای مسیردهی - یکی را امتحان کنید -->
+        <!-- یکی از این حالت‌ها را امتحان کنید -->
+        <img src="public/images/logo.png" alt="ZHARFPOLYAN Logo" class="logo">
+        <!-- یا -->
+        <img src="/public/images/logo.png" alt="ZHARFPOLYAN Logo" class="logo">
+        <!-- یا -->
+        <img src="../public/images/logo.png" alt="ZHARFPOLYAN Logo" class="logo">
+        <!-- یا -->
         <img src="images/logo.png" alt="ZHARFPOLYAN Logo" class="logo">
         <!-- یا -->
-        <!-- <img src="/images/logo.png" alt="ZHARFPOLYAN Logo" class="logo"> -->
-        <!-- یا -->
-        <!-- <img src="./images/logo.png" alt="ZHARFPOLYAN Logo" class="logo"> -->
+        <img src="/images/logo.png" alt="ZHARFPOLYAN Logo" class="logo">
     </div>
 </body>
 </html>
